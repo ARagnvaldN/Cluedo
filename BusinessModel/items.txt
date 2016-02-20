@@ -1,0 +1,3 @@
+MURDERWEAPON:15:Crowbar:A tool for opening doors.
+ITEM:0:Ball:An official ball actually used in the 2012 World Cup.
+ITEM:0:Santa's Socks:Stinky!

@@ -1,0 +1,32 @@
+==20152== Memcheck, a memory error detector
+==20152== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==20152== Using Valgrind-3.10.1 and LibVEX; rerun with -h for copyright info
+==20152== Command: ./Cluedo
+==20152== Parent PID: 8432
+==20152== 
+==20152== 
+==20152== HEAP SUMMARY:
+==20152==     in use at exit: 36 bytes in 1 blocks
+==20152==   total heap usage: 799 allocs, 798 frees, 54,105 bytes allocated
+==20152== 
+==20152== 36 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==20152==    at 0x4C2B0E0: operator new(unsigned long) (in /usr/lib/valgrind/vgpreload_memcheck-amd64-linux.so)
+==20152==    by 0x4EF1208: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19)
+==20152==    by 0x4EF1DCA: std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19)
+==20152==    by 0x4EF1E63: std::string::reserve(unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19)
+==20152==    by 0x4EF20AE: std::string::append(char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19)
+==20152==    by 0x4EACEB3: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.19)
+==20152==    by 0x40C88D: cluedo::Game::load_game(std::string) (in /afs/kth.se/home/n/y/nylun/Private/CPP/3.0_Cluedo/Cluedo)
+==20152==    by 0x408AFF: cluedo::Game::Game(std::shared_ptr<cluedo::IScreen>) (in /afs/kth.se/home/n/y/nylun/Private/CPP/3.0_Cluedo/Cluedo)
+==20152==    by 0x40ECB1: cluedo::Game::make_game(std::shared_ptr<cluedo::IScreen>) (in /afs/kth.se/home/n/y/nylun/Private/CPP/3.0_Cluedo/Cluedo)
+==20152==    by 0x427419: main (in /afs/kth.se/home/n/y/nylun/Private/CPP/3.0_Cluedo/Cluedo)
+==20152== 
+==20152== LEAK SUMMARY:
+==20152==    definitely lost: 36 bytes in 1 blocks
+==20152==    indirectly lost: 0 bytes in 0 blocks
+==20152==      possibly lost: 0 bytes in 0 blocks
+==20152==    still reachable: 0 bytes in 0 blocks
+==20152==         suppressed: 0 bytes in 0 blocks
+==20152== 
+==20152== For counts of detected and suppressed errors, rerun with: -v
+==20152== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

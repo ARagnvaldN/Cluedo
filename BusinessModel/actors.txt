@@ -1,0 +1,5 @@
+LAZY:Santa:Claus:human:130:0
+LAZY:Scooby:Doo:dog:50:2
+PANIC:Dolly:the sheep:sheep:36:5
+PANIC:August:Strindberg:human:78:7
+MURDER:Hello:Kitty:cat:12:3

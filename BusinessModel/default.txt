@@ -1,0 +1,47 @@
+META:7:4:7
+ROOM:Dining Room:The big hall hosts an enormous table upon which the late Scrooge McDuck is sprawled, drenched in his own blood.
+ROOM:Ball Room:A very big and empty room.
+ROOM:Closet:Plenty of buckets and mops are strewn across this small closet.
+ROOM:Observatory:A big telescope is situated in the middle of the room, and the walls are covered with images of stars and planets.
+MAZE
+MAZE
+MAZE
+ROOM:The Shrine:A small room with lit candles and incense, in memory of a lost love of old.
+ROOM:Guest room:A room for guests, several bunkbeds.
+ROOM:Lounge:Several chairs are placed around a fireplace.
+ROOM:Library:The walls are filled with books without numbers.
+MAZE
+MAZE
+MAZE
+CRIMESCENE:Kitchen:It smells like soup in here.
+TRAPROOM:38:0:Gym:This room has several dumbells and other weights.
+DARKROOM:???:This room is very dark.
+ROOM:Money Bath:A big swimming pool filled to the brim with golden coins.
+MAZE
+MAZE
+MAZE
+ROOM:Bathroom:Toilet, shower and a bathtub everything for your cleaning needs.
+ROOM:Trophy Room:This room is filled with trophies from around the world.
+ROOM:Master Bedroom:A double king size bed fills the room.
+ROOM:Study:Important paperstuffs are spread all across the room.
+MAZE
+MAZE
+MAZE
+=================================================
+LAZY:Santa:Claus:human:130:0
+LAZY:Scooby:Doo:dog:50:2
+PANIC:Dolly:the sheep:sheep:36:8
+PANIC:August:Strindberg:human:78:9
+LOOTER:Sauron:King of Mordor:wraith:0:23
+LOOTER:Minsc:and Boo:human and hamster:96:21
+MURDER:Hello:Kitty:cat:12:3
+=================================================
+ACT:MURDERCLUE:Hello:Feather:A bloodied feather.:Hello Kitty
+ACT:ITEM:PLAYER:Nail:There's rust all over it.
+ENV:MURDERWEAPON:12:Crowbar:A tool for opening doors.
+ENV:WEAPON:0:Axe:A sharp and brutal weapon.
+ENV:LUMINOL:14:Luminol:Makes all traces of blood visible.
+ENV:ITEM:0:Ball:An official ball actually used in the 2012 World Cup.
+ENV:ITEM:0:Socks:Stinky!
+ENV:DISPENSER:17:ITEM:Coins:A handful of golden coins.
+ENV:DISPENSER:0:SPIRITS:Vodka:A bottle of liquour.

@@ -1,0 +1,15 @@
+ROOM:Dining Room:The big hall hosts an enormous table upon which the late Scrooge McDuck is sprawled, drenched in his own blood.
+ROOM:Ball Room:A very big and empty room.
+ROOM:Closet:Plenty of buckets and mops are strewn across this small closet.
+ROOM:Observatory:A big telescope is situated in the middle of the room, and the walls are covered with images of stars and planets.
+ROOM:Guest room:A room for guests, several bunkbeds.
+ROOM:Lounge:Several chairs are placed around a fireplace.
+ROOM:Library:The walls are filled with books without numbers.
+CRIMESCENE:Kitchen:It smells like soup in here.
+TRAPROOM:38:Gym:This room has several dumbells and other weights.
+DARKROOM:???:This room is very dark.
+ROOM:Money Bath:A big swimming pool filled to the brim with golden coins.
+ROOM:Bathroom:Toilet, shower and a bathtub everything for your cleaning needs.
+ROOM:Trophy Room:This room is filled with trophies from around the world.
+ROOM:Master Bedroom:A double king size bed fills the room.
+ROOM:Study:Important paperstuffs are spread all across the room.
